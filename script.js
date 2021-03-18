@@ -4,7 +4,7 @@
           if ($(".reveal-wrapper").length > 0)
           {
             TweenMax.to(".reveal-wrapper", 2, {
-                top: "-110%",
+                top: "-150%",
                 ease: Expo.easeInOut,
                 delay: 0//3.6
             });
