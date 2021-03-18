@@ -6,7 +6,7 @@
             TweenMax.to(".reveal-wrapper", 2, {
                 top: "-150%",
                 ease: Expo.easeInOut,
-                delay: 0//3.6
+                delay: 1//3.6
             });
           }
       });
