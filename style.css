@@ -77,7 +77,8 @@ div#Circle {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url('./img/neonbg.webp') no-repeat 100%;
   background-size: cover;
-  animation: hue 10s 5s infinite alternate;
+  animation: hue 10s infinite alternate;
+  animation-delay: 5s;
   overflow: hidden;
   height: 100vh;
   transition: all 0.5s ease;
@@ -200,7 +201,8 @@ div#Circle {
   z-index: 1;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
     0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
-  animation: hue 10s 5s infinite alternate;
+  animation: hue 10s infinite alternate;
+  animation-delay: 5s;
 }
 
 .reveal-wrapper {
@@ -221,7 +223,8 @@ div#Circle {
 }
 
 .Homepage {
-  animation: hue 10s 5s infinite alternate;
+  animation: hue 10s infinite alternate;
+  animation-delay: 5s;
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
     url('./img/aurora.webp') center 100%;
   background-size: cover;
@@ -232,7 +235,8 @@ div#Circle {
 .moon {
   filter: drop-shadow(0 0 150px rgba(100, 100, 100, 1))
     drop-shadow(0 0 30px rgba(100, 100, 100, 1));
-  animation: moon 12s 5s infinite;
+  animation: moon 12s infinite;
+  animation-delay: 5s;
   transform: scale(0.5);
 }
 
@@ -268,21 +272,24 @@ div#Circle {
 
 .cloud {
   position: absolute;
-  animation: cloud 8s 7s infinite alternate-reverse;
+  animation: cloud 8s infinite alternate-reverse;
+  animation-delay: 6s;
   margin-top: 10vh;
   filter: opacity(0.5);
 }
 
 .cloud2 {
   position: absolute;
-  animation: cloud 13s 5s infinite;
+  animation: cloud 13s infinite;
   margin-top: 5vh;
+  animation-delay: 7s;
   filter: opacity(0.5);
 }
 
 .cloud3 {
   position: absolute;
-  animation: cloud 11s 6s infinite;
+  animation: cloud 11s infinite;
+  animation-delay: 8s;
   margin-top: 2vh;
   transform: scale(0.5);
   filter: opacity(0.5);
@@ -405,7 +412,8 @@ div#Circle {
   width: 100%;
   overflow: hidden;
   filter: saturate(6);
-  animation: hue 10s 5s infinite alternate;
+  animation: hue 10s infinite alternate;
+  animation-delay: 5s;
 }
 
 .about-wrapper::after {
@@ -455,7 +463,8 @@ div#Circle {
   text-align: center;
   padding: 41px 0 0 0;
   margin: 0;
-  animation: hue 10s 5s infinite alternate;
+  animation: hue 10s infinite alternate;
+  animation-delay: 5s;
 }
 
 .trigger {
