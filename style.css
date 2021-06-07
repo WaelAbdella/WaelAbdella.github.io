@@ -831,3 +831,15 @@ footer{
 .custom-cursor--link {
   transform: translate(-50%, -50%) scale(0.7);
 }
+
+/* testing gtm  */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gtm {
+  margin: 0 auto;
+  width: 40vw;
+  height: 10vh;
+}
